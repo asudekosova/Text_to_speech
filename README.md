@@ -1,2 +1,2 @@
 # Text_to_speech
- Text-to-speech for the text in the PDF (Turkish).
+ This Python code creates an application that can audibly read the text of a selected PDF file chosen by the user. It utilizes the Tkinter library to open a file selection window, prompting the user to choose a PDF file. The text from the selected PDF file is then extracted using PyPDF2, and it's converted into speech in Turkish using the gTTS (Google Text-to-Speech) library. The speech is saved as an MP3 file and played automatically.
